@@ -10,7 +10,7 @@
 
     <div class="stopwatch">
 
-<h1> 00:00:00 </h1>
+<h1 id='timeDisplay'> 00:00:00 </h1>
 
   <div class="btns">
 
@@ -22,6 +22,13 @@
   </div>
 
     </div>
+
+    <script>
+     let [ seconds, minutes, hours ] = [ 0, 0, 0 ];
+     let timeDisplay = document.getElementById('timeDisplay');
+
+    </script>
+   
     
 </body>
 
